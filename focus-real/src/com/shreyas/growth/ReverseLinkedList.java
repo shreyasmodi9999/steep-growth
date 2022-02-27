@@ -41,9 +41,9 @@ public class ReverseLinkedList {
     }
 
     private static int[] reverseData(int[] data) {
-        int[] reverseData=new int[data.length];
+        int[] reverseData = new int[data.length];
         for (int i = 0; i < data.length; i++) {
-            reverseData[i]=data[data.length-1-i];
+            reverseData[i] = data[data.length - 1 - i];
         }
         return reverseData;
     }
